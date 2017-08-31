@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events" version="1.1">
+    <style>
+    	circle.animate-circle {
+    		fill: yellow;
+    	}
+
+    	circle.point {
+    		fill: #AAA;
+    	}
+
+    	polyline {
+    		fill:transparent;
+    		stroke:#AAA;
+    		stroke-width:2;
+    		stroke-opacity: 0.8;
+    	}
+    </style>
+
+    <polyline id="line_susan" points="310 196,310 240,235 290" />
+	<!--<polyline id="line_dan" points="60 265,60 290,235 290" />-->
+	<circle class="animate-circle" cx="235" cy="290" r="5" >
+			<animate id="anim_cornell" attributeName="r" from="5" to="15" begin="indefinite" dur="1s" repeatCount="indefinite"/>
+			<animate id="anim2_cornell" attributeName="fill-opacity" from="0.6" to="0.2" begin="indefinite" dur="1s" repeatCount="indefinite"/> 
+	</circle>
+	<circle id="circle_cornell" class="point" cx="235" cy="290" r="5"/>
+	
+	<polyline id="line_gary" points="60 380,60 350,130 285" />
+	<circle class="animate-circle" cx="130" cy="285" r="5" >
+			<animate id="anim_washington" attributeName="r" from="5" to="15" begin="indefinite" dur="1s" repeatCount="indefinite"/>
+			<animate id="anim2_washington" attributeName="fill-opacity" from="0.6" to="0.2" begin="indefinite" dur="1s" repeatCount="indefinite"/> 
+	</circle>
+	<circle id="circle_washington" class="point" cx="130" cy="285" r="5" />
+ 	
+	<polyline id="line_google" points="320 380,290 310,125 310" />
+	<circle class="animate-circle" cx="125" cy="310" r="5" >
+			<animate id="anim_google" attributeName="r" from="5" to="15" begin="indefinite" dur="1s" repeatCount="indefinite"/>
+			<animate id="anim2_google" attributeName="fill-opacity" from="0.6" to="0.2" begin="indefinite" dur="1s" repeatCount="indefinite"/> 
+	</circle>
+	<circle id="circle_google" class="point" cx="125" cy="310" r="5" />
+ 	
+ 	<!-- 2015/11/10 change to NTT Communication Labs(didn't change id) -->
+ 	<!-- change points (850 188,850 270,768 308) to (850 188,850 270,760 308) -->
+    <polyline id="line_kuzuoka" points="850 188,850 270,760 308" /> 
+ 	<circle class="animate-circle" cx="760" cy="308" r="5" ><!-- change cx from 768 to 760 -->
+			<animate id="anim_tokyo" attributeName="r" from="5" to="15" begin="indefinite" dur="1s" repeatCount="indefinite"/>
+			<animate id="anim2_tokyo" attributeName="fill-opacity" from="0.6" to="0.2" begin="indefinite" dur="1s" repeatCount="indefinite"/> 
+	</circle>
+	<circle id="circle_tokyo" class="point" cx="760" cy="308" r="5" /><!-- change cx from 768 to 760 -->
+ 	
+ 	<polyline id="line_microsoft" points="615 237,630 290,703 290" />
+ 	<circle class="animate-circle" cx="703" cy="290" r="5" >
+			<animate id="anim_beijing" attributeName="r" from="5" to="15" begin="indefinite" dur="1s" repeatCount="indefinite"/>
+			<animate id="anim2_beijing" attributeName="fill-opacity" from="0.6" to="0.2" begin="indefinite" dur="1s" repeatCount="indefinite"/> 
+	</circle>
+	<circle id="circle_beijing" class="point" cx="703" cy="290" r="5" />
+ 	
+ 	<!--<polyline id="line_itri" points="585 465,650 570,820 570" />
+ 	<circle class="animate-circle" cx="585" cy="465" r="5" >
+			<animate id="anim_hsinchu" attributeName="r" from="5" to="15" begin="indefinite" dur="1s" repeatCount="indefinite"/>
+			<animate id="anim2_hsinchu" attributeName="fill-opacity" from="0.6" to="0.2" begin="indefinite" dur="1s" repeatCount="indefinite"/> 
+	</circle>
+	<circle id="circle_hsinchu" class="point" cx="585" cy="465" r="5" />-->
+ 	
+ 	<polyline id="line_sinica" points="615 450,690 380,851 380" />
+ 	<polyline id="line_tdd" points="615 450,851 450" />
+ 	<circle class="animate-circle" cx="615" cy="450" r="5" >
+			<animate id="anim_taipei" attributeName="r" from="5" to="15" begin="indefinite" dur="1s" repeatCount="indefinite"/>
+			<animate id="anim2_taipei" attributeName="fill-opacity" from="0.6" to="0.2" begin="indefinite" dur="1s" repeatCount="indefinite"/> 
+	</circle>
+	<circle id="circle_taipei" class="point" cx="615" cy="450" r="5" />
+ 	
+</svg>

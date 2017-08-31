@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6 oldie"> <![endif]-->
+<!--[if IE 7]>		<html lang="en" class="no-js ie7 oldie"> <![endif]-->
+<!--[if IE 8]>		<html lang="en" class="no-js ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class='no-js' lang='en'>
+<!--<![endif]-->
+
+<head>
+	<meta charset='utf-8' />
+	<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+	<title>CSC Lab 人機合作與社群運算實驗室</title>
+	<meta content='NTHU CSCLab' name='author' />
+	<meta content='width=device-width, initial-scale=1.0' name='viewport' />
+	<meta content='CSC HCI 人機互動 Social Computing 社群運算 NTHU 清華大學 清大資工 清大資應' name='keywords'>
+	<meta property='og:title' content='CSC Lab'>
+	<meta property='og:image' content='http://csclab.tw/static/mainsite/img/csc.png'>
+	<meta property='og:description' content=' 歡迎對社群運算、人機互動、機器學習與語言科技之應用、數位學習及認知科學等主題感興趣的學生申請加入我們的行列。我們關注之研究課題具跨領域性質，結合電腦資訊科學與社會行為科學研究進行「以問題為導向、以使用者為中心」之遠距溝通、線上社群、創意輔助等資訊系統之發展，期有效輔助線上合作、學習與人際互動。我們重視與國際研究社群接軌，強調在學理上、使用者研究上與科技設計上有所創新與貢獻，並積極投入頂尖會議之參與與發表。'>
+	<link href='./static/mainsite/stylesheets/style.css' rel='stylesheet' />
+	<script src='./static/mainsite/javascripts/modernizr-2.0.6.min.js'></script>
+	<script src='./static/mainsite/javascripts/console.js'></script>
+</head>
+
+<body>
+	<div id='fb-root'></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=436097273121716";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<div id='container'>
+		<header>
+			<div id='cover'>
+				<img src='./static/mainsite/img/white_CSC.png' />
+				<div class='lab-name'>Collaborative &amp; Social Computing Lab</div>
+				<div class='desc'>
+					歡迎對社群運算、人機互動、機器學習與語言科技之應用、數位學習及認知科學等主題感興趣的學生申請加入我們的行列。我們關注之研究課題具跨領域性質，結合電腦資訊科學與社會行為科學研究進行「以問題為導向、以使用者為中心」之遠距溝通、線上社群、創意輔助等資訊系統之發展，期有效輔助線上合作、學習與人際互動。我們重視與國際研究社群接軌，強調在學理上、使用者研究上與科技設計上有所創新與貢獻，並積極投入頂尖會議之參與與發表。
+				</div>
+			</div>
+			<div class='btn'>
+				<button id='discover-btn'>探索更多</button>
+			</div>
+		</header>
+		<div id='nav'>
+			<div id='nav-bar'>
+				<ul>
+					<li>
+						<a href='#murmurs'>碎碎唸</a>
+					</li>
+					<li>
+						<a href='#projects'>研究計劃</a>
+					</li>
+					<li>
+						<a href='#members'>成員</a>
+					</li>
+					<li>
+						<a href='#partners'>合作單位</a>
+					</li>
+					<li>
+						<a href='#contactus'>聯絡我們</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id='main' role='main'>
+			<section id='murmurs'>
+				<div class='fb-like' data-action='like' data-href='https://www.facebook.com/nthucsclab' data-layout='standard' data-share='false' data-show-faces='false'></div>
+				<div id='logo-container'>
+					<img id='nthu-logo' src='./static/mainsite/img/NTHU.png' />
+					<img id='csc-logo' src='./static/mainsite/img/csc.png' />
+					<div id='profile-container'>
+						<div class='profile' data-name='CarolSu' style='top:70px;left:230px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/712900126/picture?width=120&amp;height=120' />
+
+							<div class='talk-buble left'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile' data-name='Chi-Lan' style='top:140px;left:65px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/734786006606136/picture?width=120&amp;height=120' />
+							<div class='talk-buble left'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile' data-name='Vicky' style='top:170px;left:490px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/492812787517295/picture?width=120&amp;height=120' />
+							<div class='talk-buble center'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile' data-name='Jerrypu' style='top:180px;left:635px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/1030571490293249/picture?width=120&amp;height=120' />
+							<div class='talk-buble center'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile current-profile' data-name='Hao-Chuan' style='top:25px;left:450px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/10152412277630185/picture?width=120&amp;height=120' />
+							<div class='talk-buble center showing-buble'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile' data-name='ALlie' style='top:280px;left:260px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/100002513716857/picture?width=120&amp;height=120' />
+							<div class='talk-buble left'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile' data-name='Tina' style='top:40px;left:710px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/1722863629/picture?width=120&amp;height=120' />
+							<div class='talk-buble right'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile' data-name='JackLee' style='top:320px;left:640px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/100000210685579/picture?width=120&amp;height=120' />
+							<div class='talk-buble right'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile' data-name='PeiYi' style='top:120px;left:330px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/100000193629785/picture?width=120&amp;height=120' />
+							<div class='talk-buble center'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile' data-name='YiJu' style='top:290px;left:520px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/100000573020573/picture?width=120&amp;height=120' />
+							<div class='talk-buble right'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='profile' data-name='Jean' style='top:310px;left:120px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/100002149990213/picture?width=120&amp;height=120' />
+							<div class='talk-buble left'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class='profile' data-name='Zheng-Xian' style='top:320px;left:380px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/100000848272262/picture?width=120&amp;height=120' />
+							<div class='talk-buble center'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<div class='profile' data-name='Mei-Ling' style='top:280px;left:740px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/1222536037/picture?width=120&amp;height=120' />
+							<div class='talk-buble center'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class='profile' data-name='Gary' style='top:50px;left:120px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/100000925916799/picture?width=120&amp;height=120' />
+							<div class='talk-buble center'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<!-- <div class='profile' data-name='Yvonne' style='top:185px;left:205px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/100009713254992/picture?width=120&amp;height=120' />
+							<div class='talk-buble center'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<!-- <div class='profile' data-name='Pornlada' style='top:105px;left:575px;'>
+							<img class='profile-pic' src='https://graph.facebook.com/100000304973925/picture?width=120&amp;height=120' />
+							<div class='talk-buble center'>
+								<div class='arrow'></div>
+								<div class='buble'>
+									<div class='murmur-text'>
+										你如何收集、管理與使用資訊，將會決定你是輸還是贏
+									</div>
+									<div class='murmur-timestamp'>
+										<span data-livestamp=''></span>
+									</div>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</section>
+			<section id='projects'>
+				<div id='project-container'>
+					<div class='row'>
+						<div class='project long' data-pid='0' data-title='Supporting Conversation Across Language Boundaries with Human-Centered Computing Design'>
+							<img src='./static/mainsite/icons/01.jpg' />
+							<div class='project-content'>
+								Computer-mediated communication (CMC) tools and social media have the potential to allow people to interact fluidly across national, cultural and linguistic boundaries in ways that would have been difficult if not impossible in the past. In virtual organizations
+								and online communities, teams of people from across the globe now work together on common problems; in classrooms, educational activities involving interaction and collaboration with students in other nations can be built into the curriculum;
+								and in people’s social lives, there are new opportunities to develop relationships with people from other countries and backgrounds through social networking sites and other online venues.</br>
+								</br>
+								Despite the promise of CMC for interaction across geographic, national and cultural boundaries, however, much of this potential fails to be realized due to the language barrier. A single individual is unlikely to be fluent in a wide array of languages.
+								The use of a common language such as Chinese or English permits a degree of interaction with speakers of other native languages, but it can have negative effects on non-native speakers. Advances in machine translation (MT) and other technologies
+								have resulted in new tools that could allow people to communicate with one another in their native language, but translation errors create sizeable misunderstandings when MT is used in conversational settings.</br>
+								</br>
+								The goal of the proposed research is to better support communication between people who speak different native languages by enhancing MT output with other information, such as keyword highlighting or pictorial representations. To ensure the utility of
+								our designs, we take the Human-Centered Computing (HCC) approach that takes into consideration a wide array of human factors including users’ language comprehension, language production, social interaction and overall use experience throughout
+								the design and evaluation of proposed technologies. More specifically, the project will (a) explore how the use of MT vs. common language affects inter-lingual communication and coordination; (b) iteratively develop and test new tools that provide
+								additional representations of meaning to smooth gaps in MT output; and (c) assess the value of these enhanced MT tools for communication and collaboration in a series of carefully controlled laboratory studies. The results will help delineate
+								the design and technical space for new tools for inter-lingual communication.
+							</div>
+						</div>
+						<div class='project' data-pid='1' data-title='Tag &amp; Link'>
+							<img src='./static/mainsite/icons/02.jpg' />
+							<div class='project-content'>
+								由於可拍照的智慧型3C產品與網路的普及化，現今網路上存在著大量的數位照片。本研究想藉由群眾的力量，以遊戲的方式，對這些照片內容做標記。標記的方法有兩種，除了可以對物件依照位置與區域做標記（tag）之外，也可以利用連結（link）建立不同標記物件之間的關聯性。藉此了解與分析使用者的標記行為，並用heat map分析使用者感興趣與忽略的區域。於研究中所得到的語意資料，將可對於圖像認知與影像處理相關的研究與應用有所助益。
+							</div>
+							<div class='project-img'>
+								<img src='./static/mainsite/img/tag_link.png' />
+							</div>
+						</div>
+						<div class='project' data-pid='2' data-title='MicroTask'>
+							<img src='./static/mainsite/icons/03.jpg' />
+							<div class='project-content'>
+								在台灣的上課環境中，學生一般都不會主動發問。我們設計了一系列可以在一分鐘內完成的「微任務」，在課堂中使用微任務這樣的概念，搭配 iPad、iPod touch 裝置，在課程中增加了即時向老師問問題的「任務」，改變了傳統「老師在上面說，學生在下面聽」的上課模式，使得師生能夠在課堂當中有更多的互動，並促進學生培養主動思考發問的習慣。
+							</div>
+							<div class='project-img'>
+								<img src='./static/mainsite/img/microtask.png' />
+							</div>
+						</div>
+						<div class='project' data-pid='3' data-title='De-Virtualizing Social Events: Understanding the Gap between Online and Offline'>
+							<img src='./static/mainsite/icons/04.jpg' />
+							<div class='project-content'>
+								One growing use of computer-based communication media is for gathering people to initiate or sustain social events. Although the use of computer-mediated communication and social network sites such as Facebook for event promotion is becoming popular,
+								online participation in an event does not always translate to offline attendance. In this paper, we report on an interview study of 31 participants that examines how people handle online event invitations and what influences their online and offline
+								participation. The results show that people’s event participation is shaped by their social perceptions of the event’s nature , their relationships to others, and the medium used to communicate event information. It illuminate the sophisticated
+								nature of the mechanisms that affect participation and have design implications that can bridge virtual and real attendance.
+							</div>
+							<div class='project-img'>
+								<img src='./static/mainsite/img/devirtualize.png' />
+							</div>
+						</div>
+					</div>
+					<div class='project-drawer' data-row='0'>
+						<div class='project-arrow'></div>
+						<div class='project-desc'>
+							<div class='project-title'></div>
+							<div class='project-text'></div>
+							<img class='project-img' />
+						</div>
+					</div>
+					<div class='row'>
+						<div class='project' data-pid='4' data-title='Crowdsourcing 3D Motion Data Collection'>
+							<img src='./static/mainsite/icons/05.jpg' />
+							<div class='project-content'>
+								如何將 2D 的平面影片轉換成3D的模型，一直是一項難以突破的瓶頸，目前如果要取得 3D 的資料常需要大量資金與專業技術，例如：電影工業需要複雜的技術來製作動畫或是特效。於是我們開發出一套系統，結合 Web 和 Kinect，將動作資料收集從網路發包給一般群眾，讓整個 3D Modeling 的難度以及花費降低，期望能帶出一套新的資料收集模式，以助於產業發展。
+							</div>
+							<div class='project-img'>
+								<img src='./static/mainsite/img/motionary.png' />
+							</div>
+						</div>
+						<div class='project' data-pid='5' data-title='KinChat'>
+							<img src='./static/mainsite/icons/06.jpg' />
+							<div class='project-content'>
+								雖然目前許多通訊軟體有視訊或者語音的功能，但基於隱私或者方便性，一般人主要還是使用文字來溝通。利用 Kinect 的臉部辨識功能，並在聊天視窗中加上卡通式的即時表情圖案，可以讓使用者在保有隱私性的情形下，仍然能自然地表現其面部表情。
+							</div>
+							<div class='project-img'>
+								<img src='./static/mainsite/img/kinchat.png' />
+							</div>
+						</div>
+						<div class='project' data-pid='6' data-title='Kinect-Tapping Tool'>
+							<img src='./static/mainsite/icons/07.jpg' />
+							<div class='project-content'>
+								我們提出一套新穎的方法：使用體感裝置 Kinect，了解與分析不同溝通媒介下的手勢行為在面對面以及電腦中介溝通所扮演的角色，包括手勢使用的多寡，對話者彼此的手勢相似度，進而了解手勢行為對於談話內容的理解程度與創意產生的關聯性，並將資訊視覺化以利更深入的研究分析。此方法建置成本低與分析快速的優勢將作為人機互動與電腦中介傳播研究的新工具。
+							</div>
+							<div class='project-img'>
+								<img src='./static/mainsite/img/kinect_tapping2.png' />
+							</div>
+						</div>
+						<div class='project' data-pid='7' data-title='Kinect Conferencing'>
+							<img src='./static/mainsite/icons/08.jpg' />
+							<div class='project-content'>
+								語音通訊已深入我們的日常生活中，其一大優點為保有隱私性，相對地則缺乏視覺上的訊息輔助。因此我們使用體感裝置Kinect捕捉溝通中的手勢行為與頭部位置的轉動，並將其視覺化分成”Position-oriented”與”Concept-oriented”，提供額外的資訊輔助，藉由此設計，在使用語音通訊除了保有隱私性也可以接收到肢體動作的訊息。
+							</div>
+							<div class='project-img'>
+								<img src='./static/mainsite/img/kinect_conferencing.png' />
+							</div>
+						</div>
+					</div>
+					<div class='project-drawer' data-row='1'>
+						<div class='project-arrow'></div>
+						<div class='project-desc'>
+							<div class='project-title'></div>
+							<div class='project-text'></div>
+							<img class='project-img' />
+						</div>
+					</div>
+					<div class='row'>
+						<div class='project' data-pid='8' data-title='Collecting Natural Language Questions with﻿ a Human Computation Game'>
+							<img src='./static/mainsite/icons/09.jpg' />
+							<div class='project-content'>
+								For interactive systems that process open-ended queries from users, such as question answering systems, tutoring systems and search engines etc., being able to handle “natural language questions” from users is important yet continues to be a challenging
+								task. The challenge comes from at least two aspects: (1) Lack of labeled data. Given a particular piece of information, we need to collect corresponding natural language questions to be able to use data-driven approaches to match open-ended queries
+								to internal representations of information. (2) Lack of realistic data. Relying on trained experts to author questions may not reflect what common users will ask in practice. We explore using a human computation game to collect natural language
+								questions from common users to construct a question database for Linggle. The ultimate goal is to enable users to query systems like Linggle using natural language questions.
+							</div>
+							<div class='project-img'>
+								<img src='./static/mainsite/img/nlp.png' />
+							</div>
+						</div>
+						<div class='project' data-pid='9' data-title='MosaicLens'>
+							<img src='./static/mainsite/icons/10.jpg' />
+							<div class='project-content'>
+								審議 (Deliberation) 是多人共同參與分析討論並決策的過程。參與審議的每一個人可從不同角度提供建設性的意見，補足團體內其他人的知識缺口。電腦中介傳播技術更讓公民審議突破了時空的限制。透過網路平台進行公共議題審議解決了實體審議的部分問題，但也迎來新的挑戰。此研究旨在探討線上審議平台的介面設計是否會影響審議的品質。
+							</div>
+							<div class='project-img'>
+								<img src='./static/mainsite/img/mosaiclens.png' />
+							</div>
+						</div>
+						<div class='project long' data-pid='10' data-title='Design/Crowd'>
+							<img src='./static/mainsite/icons/11.jpg' />
+							<div class='project-content'>
+								現今，我們每天都十分倚賴網路服務，並且瀏覽大量的網頁。然而，我們卻時常遇到一些十分難用的網頁，這些網頁通常有令人困惑的排版，不明顯的點擊暗示，或是不太正確的邏輯編排，而身為使用者的我們卻也只能默默忍受。因此，我們希望提供一個工具及平台，讓使用者即使不了解撰寫網頁的程式碼（HTML,CSS, JavaScript等），也可以直接且直覺利用我們的工具反映他們對網頁設計的意見，並期望透過群眾外包（Crowdsourcing）的力量增進網頁的方便性，就如下面的示意圖所示：
+								<br/>
+								<br/>
+								<img src="./static/mainsite/img/design_crowd1.png" style="display:block;width: 600px;margin-left:auto;margin-right: auto;">
+								<br/> 這個專題的實作分成兩部分：讓使用者可以輕鬆編輯網頁的編輯工具以及讓使用者可以展示、分享成果並具備版本控制功能的平台。編輯網頁的編輯工具為一個書籤列的Bookmarklet（書籤小程式），內嵌一段使得使用者能夠載入編輯工具的JavaScript 。
+								<br/>
+								<br/>
+								<img src="./static/mainsite/img/design_crowd2.png" style="display:block;width: 600px;margin-left:auto;margin-right: auto;">
+								<br/>
+								<br/>
+								<img src="./static/mainsite/img/design_crowd3.png" style="display:block;width: 600px;margin-left:auto;margin-right: auto;">
+								<br/>
+								<br/> 完成後，使用者可以在http://csclab12.cs.nthu.edu.tw/resultpage上看到的修改，同時也可以針對別人做的修改進一步做編輯。我們相信在這樣的更迭之中，可以逐步收斂到一個大眾覺得好用的網頁。
+							</div>
+						</div>
+					</div>
+					<div class="project-drawer" data-row="2">
+						<div class='project-arrow'></div>
+						<div class='project-desc'>
+							<div class='project-title'></div>
+							<div class='project-text'></div>
+							<img class='project-img' />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id='members'>
+				<div class='group' data-title='指導教授'>
+					<div class='card instructor'>
+						<img src='https://graph.facebook.com/10152412277630185/picture?width=200&amp;height=200' />
+						<div class='info'>
+							<div class='name'>王浩全</div>
+							<div class='institute'>康乃爾大學博士/博士後研究員, 卡內基美隆大學博士班</div>
+							<div class='more'>
+								<ul>
+									<li>中央研究院社群網路與人智計算國際博士學程教師</li>
+									<li>華盛頓大學西雅圖分校訪問學者 2014</li>
+									<li>CHI 2014/2015/2016, CSCW 2013/2015 議程副主席(Associate Chairs)</li>
+									<li>Chinese CHI 2014, 2015 議程共同主席 (Program Co-Chairs)</li>
+									<li>ACM CSCW Steering Committee 指導委員會成員</li>
+									<li>Google Faculty Research Award 2014</li>
+									<li>MSRA Faculty Summit 2014受邀演講</li>
+									<!-- 2015/11/11 update -->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='group' data-title='博士生'>
+					<div class='card'>
+						<img src='https://graph.facebook.com/734786006606136/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>楊期蘭</div>
+							<div class='institute'>資應所 博三碩平</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CHI 2016 late-breaking-work paper</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/1222536037/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>陳美伶</div>
+							<div class='institute'>資應所 博三</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CHI 2016 late-breaking-work paper</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/712900126/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>蘇晴</div>
+							<div class='institute'>資工所 博二</div>
+						</div>
+					</div>
+				</div>
+				<div class='group' data-title='研究生'>
+
+					<div class='card'>
+						<img src='https://graph.facebook.com/1722863629/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>杜佩芸</div>
+							<div class='institute'>資工所 碩三</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CHI 2016 late-breaking-work paper</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/492812787517295/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>劉宇璇
+								<!-- 是我的 >////< -->
+							</div>
+							<div class='institute'>資應所 碩二</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/1030571490293249/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>詹易衡</div>
+							<div class='institute'>資工系 碩二</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100002513716857/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>張可人</div>
+							<div class='institute'>資應所 碩二</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000210685579/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>李柏翰</div>
+							<div class='institute'>資應所 碩二</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000193629785/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>徐佩宜</div>
+							<div class='institute'>資應所 碩二</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000573020573/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>林弈汝</div>
+							<div class='institute'>資工系 碩一</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100002149990213/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>劉淨</div>
+							<div class='institute'>資工系 碩一</div>
+						</div>
+					</div>
+				</div>
+				<!-- http://lookup-id.com/# -->
+				<div class='group' data-title='大學部專題生'>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100002762451017/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>鍾祐霖</div>
+							<div class='institute'>資工系 大四</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000561072644/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>李國緯</div>
+							<div class='institute'>資工系 大四</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000290938241/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>高銓澤</div>
+							<div class='institute'>資工系 大四</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100002734983684/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>鄭羽彤</div>
+							<div class='institute'>資工系 大四</div>
+						</div>
+					</div>
+				</div>
+				<div class='group' data-title='合作伙伴'>
+					<div class='card'>
+						<img src='https://graph.facebook.com/10152582604569541/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>顏羽君</div>
+							<div class='institute'>UIUC CS 博士生</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000059358249/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>蕭喬尹</div>
+							<div class='institute' style='font-size:9pt;'>UM SI 博士生</div>
+						</div>
+					</div>
+				</div>
+				<div class='group' data-title='畢業校友'>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000801440431/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>賴建同</div>
+							<div class='institute'>GoodLife</div>
+							<div class='honor'>
+								榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CHI 2014 full paper</li>
+										<li>科技部出國開會補助</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000181724485/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>黃艾如</div>
+							<div class='institute'>HTC Creative Labs</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CSCW 2014 full paper</li>
+										<li>CHI 2014 student volunteer</li>
+										<li>傑出人才基金會出國開會補助</li>
+										<li>康乃爾大學暑期交換</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/10152348999460536/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>蔡幸霖</div>
+							<div class='institute'>台積電IT部門</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>清華出國交換生獎學金 (日本筑波大學) </li>
+										<li>康乃爾大學暑期交換</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/1067166582/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>姚道亨</div>
+							<div class='institute'>Start up</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>華盛頓大學西雅圖分校暑期交換</li>
+										<li>Chinese CHI 2014 short paper</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/801820533/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>姜翰廷</div>
+							<div class='institute'>e-Janネットワークス</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>OpenHCI 2014 幹部</li>
+										<li>2013 ACM ICPC Asia Regional Chiayi 8th place</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/10202644825514886/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>楊平京</div>
+							<div class='institute'></div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/10202255956745145/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>Hiraku Wang</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CHI 2014 work-in-progress paper</li>
+										<li>CHI 2016 late-breaking-work paper</li>
+										<li>微軟亞洲研究院實習生</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/680472392000280/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>施博瀚</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000128374369/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>潘玫樺</div>
+							<div class='institute'>Pinkoi</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>中研院資訊所暑期實習生</li>
+										<li>國科會大專學生研究計畫</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000848272262/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>韓政憲</div>
+							<div class='institute'>ASUS</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CHI 2014 work-in-progress paper</li>
+										<li>Smart Graphics 2014 poster</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/896316923718208/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>張元嘉</div>
+							<div class='institute'></div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CSCW 2017 full paper</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/768289239857099/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>林雅芳</div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CHI 2016 full paper</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/822472024448874/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>黃振瑋</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000925916799/picture?width=120&amp;height=120' />
+						<!-- <img src='http://i.giphy.com/26FPIzJYWJp3rjqFO.gif' />-->
+						<div class='info'>
+							<div class='name'>林冠宇</div>
+							<div class='institute'></div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>CHI 2016 late-breaking-work paper</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000304973925/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>Pornlada </br>Ittipornpithak</div>
+							<div class='institute'>碩</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100001535559485/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>許凱翔</div>
+							<div class='institute'></div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000169292455/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>鄭浩緯</div>
+							<div class='institute'></div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>Smart Graphics 2014 poster</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100001361793900/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>陳岳佟</div>
+							<div class='institute'></div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/877254382289554/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>林柏安</div>
+							<div class='institute'></div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000083087481/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>侯佳欣</div>
+							<div class='institute'></div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/10203802399763803/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>李欣蕙</div>
+							<div class='institute'></div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>Chinese CHI 2014 short paper</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/10201497613477186/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>廖孟筠</div>
+							<div class='institute'></div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/10201888858901704/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>吳恩新</div>
+							<div class='institute'></div>
+							<div class='honor'>榮譽事蹟
+								<div class='honorlist'>
+									<ul>
+										<li>科技部大專學生研究計畫</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000161935946/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>許庭偉</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100002011972864/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>簡欣妤</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000289251430/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>單子芸</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100005905177005/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>洪語聰</div>
+						</div>
+					</div>
+					<div class='card'>
+						<img src='https://graph.facebook.com/100000687027330/picture?width=120&amp;height=120' />
+						<div class='info'>
+							<div class='name'>王子洋</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id='partners'>
+				<div id='map'>
+					<img src='./static/mainsite/img/worldmap.png' />
+					<div id='partner-container'>
+						<img class='magnifier' src='./static/mainsite/img/magnifier.svg' />
+						<div id='taiwan-map' style='top:435px;right:360px;'>
+							<img src='./static/mainsite/img/tw.png' />
+						</div>
+						<iframe class='svg-line' id='svg' src='./static/mainsite/img/path.svg'></iframe>
+						<div class='partner' data-location='cornell' data-partner='susan' style='top:160px;left:100px;'>
+							Prof. Susan Fussell ( Cornell University )
+						</div>
+						<!--<div class='partner' data-location='cornell' data-partner='dan' style='top:230px;left:-100px;'>
+								Prof. Dan Cosley ( Cornell University )
+							</div>-->
+						<div class='partner' data-location='washington' data-partner='gary' style='top:380px;left:-100px;'>
+							Prof. Gary Hsieh ( University of Washington )
+						</div>
+						<div class='partner' data-location='google' data-partner='google' style='top:380px;left:300px;'>
+							Google
+						</div>
+
+						<div class='partner' data-location='tokyo' data-partner='kuzuoka' style='top:150px;right:-50px;'>
+							NTT Communication Science Labs
+						</div>
+						<div class='partner' data-location='beijing' data-partner='microsoft' style='top:200px;right:250px;'>
+							Microsoft Research Asia
+						</div>
+						<div class='partner' data-location='taipei' data-partner='sinica' style='top:360px;right:-50px;'>
+							中央研究院
+						</div>
+						<div class='partner' data-location='taipei' data-partner='tdd' style='top:430px;right:-18px;'>
+							台達電
+						</div>
+						<div class='partner' data-location='taipei' data-partner='intel' style='top:400px;right:-80px;'>
+							Intel-台大創新研究中心
+						</div>
+						<!--<div class='partner' data-location='hsinchu' data-partner='itri' style='top:550px;right:-50px;'>
+								工業技術研究院
+							</div>-->
+					</div>
+				</div>
+			</section>
+			<section id='contactus'>
+				<div class='invitation'>
+					<div class='invitation-title'>
+						Invitation
+					</div>
+					<div class='invitation-wrapper'>
+						<div class='invitation-content'>
+							<div class='event-text'>
+								感謝您對清華大學人機合作與社群運算實驗室的興趣。我們本年度的 Open House 活動已結束，如果您想要加入我們的實驗室，或者有任何問題想要詢問，請直接寄 Email 給王浩全教授，謝謝。
+								<!-- ，今年活動僅有一場，將針對大學部專題生與研究生新生共同做說明。屆時，我們將介紹我們曾經做過，以及正在進行的研究。你將會有機會與實驗室成員們互動交流，分享彼此對於社群運算、人機互動的看法與理想。現場會供應食物與飲料。 -->
+								<br>
+								<br>
+							</div>
+							<div class='event-info'>
+								<!--<div class='event-time'>
+										&nbsp; 專題生場：2014年11月21日 （星期五） 17:00 - 18:30PM
+									</div>
+									<div class='event-time'>
+									&nbsp; 研究生場：2014年11月24日 （星期一） 19:00 - 20:30PM
+									</div>-->
+								<div class='event-place'>
+									&nbsp; 清華大學資電館 841 & 842
+								</div>
+								<div class='event-map'>
+									<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=120.98797380924225%2C24.79244717700343%2C120.99593997001648%2C24.79713689299315&amp;layer=mapnik&amp;marker=24.79478962221269%2C120.99195957183838"
+													style="border: none"></iframe>
+									<br/><small><a href="http://www.openstreetmap.org/?mlat=24.79479&amp;mlon=120.99196#map=18/24.79479/120.99196">View Larger Map</a></small>
+								</div>
+							</div>
+							<div id='thanks'> Thanks for your support. </div>
+						</div>
+					</div>
+					<div class='decoration'>
+						<img src='./static/mainsite/img/decoration_line.png' />
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div class='desc-wrapper'>
+				<div class='desc'>
+					<div class='copyright'>Copyright © 2015 Collaborative & Social Computing Lab</div>
+					<div class='attribution'>Designed by <span class='thyeo'>Tau-Heng Yeo</span>. Credit for logo and artworks goes to Ivy Huang.</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<!-- %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" } -->
+	<!-- %script -->
+	<!-- window.jQuery || document.write("<script src='javascripts/jquery-1.6.2.min.js'>\x3C/script>") -->
+	<script>
+		var CSRF = '{{ csrf_token }}';
+	</script>
+	<!--<script src='{{ STATIC_URL }}js/jquery-1.7.2.min.js'></script>-->
+	<script src='./static/mainsite/javascripts/plugins.js'></script>
+	<script src='./static/mainsite/javascripts/moment.min.js'></script>
+	<script src='./static/mainsite/javascripts/livestamp.min.js'></script>
+	<script src='./static/mainsite/javascripts/jquery.easing.min.js'></script>
+	<script src='./static/mainsite/javascripts/script.js'></script>
+
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-54238726-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!--[if lt IE 7]>
+		<script src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js'></script>
+		<script>
+			window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})});
+		</script>
+		<![endif]-->
+</body>
+
+</html>
